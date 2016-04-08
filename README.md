@@ -17,6 +17,8 @@ Palette.White.SecondaryText.toRgbString() // 'rgba(255, 255, 255, 0.7)'
 
 See list of colors: https://github.com/danlevan/google-material-color/blob/master/src/colors.js
 
+Color APIs: https://github.com/bgrins/TinyColor/blob/master/README.md
+
 Dependencies
 ------------
 google-material-color: https://github.com/danlevan/google-material-color
