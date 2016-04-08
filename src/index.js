@@ -9,8 +9,12 @@ const mapToNewName = (obj, fn) => {
   return dest;
 }
 
-export default mapToNewName(palette.palette, (shades, colorName) => {
-  return mapToNewName(shades, (hex, shadeName) => {
-    return tinycolor(hex);
-  });
-});
+const Palette = mapToNewName(
+  palette.palette,
+  (shades) => mapToNewName(shades, (hex) => hex),
+);
+
+export default mapToNewName(
+  Palette,
+  (shades) => (shadeName) => tinycolor(shades[shadeName])
+);

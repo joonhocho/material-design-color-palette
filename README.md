@@ -8,11 +8,11 @@ npm install --save mdcolor
 ```
 import MDColor from 'mdcolor';
 
-MDColor.Red[500].toHexString(); // '#f44336'
+MDColor.Red(500).toHexString(); // '#f44336'
 
-MDColor.DeepPurple.A700.toHexString() // '#6200ea'
+MDColor.DeepPurple('A700').toHexString() // '#6200ea'
 
-MDColor.White.SecondaryText.toRgbString() // 'rgba(255, 255, 255, 0.7)'
+MDColor.White('SecondaryText').toRgbString() // 'rgba(255, 255, 255, 0.7)'
 ```
 
 See list of colors: https://github.com/danlevan/google-material-color/blob/master/src/colors.js

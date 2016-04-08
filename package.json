@@ -5,6 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
+    "start": "npm run babel && npm run test",
     "test": "mocha test/**/*.js"
   },
   "repository": {
