@@ -2,17 +2,17 @@
 Material design color palette meets TinyColor
 
 ```
-npm install --save mdc-palette
+npm install --save mdcolor
 ```
 
 ```
-import Palette from 'mdc-palette';
+import MDColor from 'mdcolor';
 
-Palette.Red[500].toHexString(); // '#f44336'
+MDColor.Red[500].toHexString(); // '#f44336'
 
-Palette.DeepPurple.A700.toHexString() // '#6200ea'
+MDColor.DeepPurple.A700.toHexString() // '#6200ea'
 
-Palette.White.SecondaryText.toRgbString() // 'rgba(255, 255, 255, 0.7)'
+MDColor.White.SecondaryText.toRgbString() // 'rgba(255, 255, 255, 0.7)'
 ```
 
 See list of colors: https://github.com/danlevan/google-material-color/blob/master/src/colors.js

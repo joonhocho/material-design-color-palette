@@ -1,5 +1,5 @@
 {
-  "name": "mdc-palette",
+  "name": "mdcolor",
   "version": "0.0.1",
   "description": "Material design color palette meets TinyColor",
   "main": "lib/index.js",
