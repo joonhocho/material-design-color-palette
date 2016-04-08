@@ -1,6 +1,6 @@
 {
   "name": "mdcolor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Material design color palette meets TinyColor",
   "main": "lib/index.js",
   "scripts": {

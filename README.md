@@ -10,6 +10,8 @@ import MDColor from 'mdcolor';
 
 MDColor.Red(500).toHexString(); // '#f44336'
 
+MDColor.Red(500, 1); // '#F44336' raw value
+
 MDColor.DeepPurple('A700').toHexString() // '#6200ea'
 
 MDColor.White('SecondaryText').toRgbString() // 'rgba(255, 255, 255, 0.7)'

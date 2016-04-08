@@ -6,6 +6,10 @@ describe('MDColor', function() {
     assert.equal('#f44336', MDColor.Red(500).toHexString());
   });
 
+  it('should return raw value if second parameter is truthy.', function() {
+    assert.equal('#F44336', MDColor.Red(500, 1));
+  });
+
   it('should remove white spaces from color names.', function() {
     assert.equal('#6200ea', MDColor.DeepPurple('A700').toHexString());
   });

@@ -16,5 +16,5 @@ const Palette = mapToNewName(
 
 export default mapToNewName(
   Palette,
-  (shades) => (shadeName) => tinycolor(shades[shadeName])
+  (shades) => (shadeName, raw) => (raw ? shades[shadeName] : tinycolor(shades[shadeName])),
 );
