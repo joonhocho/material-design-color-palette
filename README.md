@@ -10,7 +10,7 @@ import MDColor from 'mdcolor';
 
 MDColor.Red(500).toHexString(); // '#f44336'
 
-MDColor.Red(500, 1); // '#F44336' raw value
+MDColor.Red(500, 1); // '#F44336' Raw value. Faster since it does not wrap it with TinyColor.
 
 MDColor.DeepPurple('A700').toHexString() // '#6200ea'
 
