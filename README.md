@@ -18,6 +18,7 @@ MDColor.White('SecondaryText').toRgbString() // 'rgba(255, 255, 255, 0.7)'
 ```
 
 See list of colors: https://github.com/danlevan/google-material-color/blob/master/src/colors.js
+At official site: https://www.google.com/design/spec/style/color.html#color-color-palette
 
 TinyColor API: https://github.com/bgrins/TinyColor/blob/master/README.md
 
